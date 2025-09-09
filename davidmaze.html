@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>David's Maze</h1>
+    <label>Rows: <input type="number" id="rows" value="10" min="5" max="30"></label>
+    <label>Columns: <input type="number" id="cols" value="10" min="5" max="30"></label>
+    <button onclick="makeMaze()">Generate the Maze</button>
+    <button onclick="solveMaze()">Show the Solution</button>
+    <div id="maze"></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
