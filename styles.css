@@ -1,0 +1,9 @@
+body { text-align: center; font-family: "Comic Sans MS", "Comic Sans", cursive; }
+#maze { position: relative; width: 1000px; height: 1000px; margin: 25px auto; border: 5px solid black; }
+.wall { position: absolute; background-color: black; }
+.start { background-color: rgb(255, 0, 0); }
+.end { background-color: red; }
+.solution { background-color: rgb(0, 221, 74); opacity: 0.5; }
+body { background-color: black; }
+.wall { background-color: white; }
+body { color: white; }
